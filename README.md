@@ -1,13 +1,13 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-f059dc9a6f8d3a56e377f745f24479a46679e63a5d9fe6f495e02850cd0d8118.svg)](https://classroom.github.com/online_ide?assignment_repo_id=462416&assignment_repo_type=GroupAssignmentRepo)
 # Nome do projeto
 
-Escreva um ou dois  parágrafo resumindo o objetivo do seu projeto.
+Projeto da disciplina Trabalho Interdisciplinar - Aplicações Web - Tema: Gamificação na Educação
 
 ## Alunos integrantes da equipe
 
 * Gabriel Parfan Guimarães
 * Carlos Augusto Lopes Xavier
-* Nome completo do aluno 3
+* Marcelo Mendes Rocha de Freitas
 * Nome completo do aluno 4
 
 ## Professores responsáveis
