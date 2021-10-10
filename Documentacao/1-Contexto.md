@@ -1,21 +1,11 @@
 # Introdução
 
-## Problema
-> Nesse momento você deve apresentar o problema que a sua aplicação deve
-> resolver. No entanto, não é a hora de comentar sobre a aplicação.
-> Descreva também o contexto em que essa aplicação será usada, se
-> houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de
-> fato existir, pois ainda não é a hora de apresentar requisitos
-> detalhados ou projetos.
->
-> Nesse momento, o grupo pode optar por fazer uso
-> de ferramentas como Design Thinking, que permite um olhar de ponta a
-> ponta para o problema.
->
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+## Problema - Falta de engajamento na educação
+> É inegavel que o estado atual da edução tanto no Brasil como em outros paises é complexo e na maioria dos casos, problematico. Desde a falta de estrutura e investimento, a metodolgias falhas e restrições burocraticas, alunos e professores de todos os niveis sofrem com um sistema incompleto onde os incentivos para realmente aprender são secundarios. 
+> Dentre todos os problemas nos sistemas educacionais atuais, um dos maiores é a falta de engajamento existente quase como uma regra entre os alunos. No mundo atual, extremamente interconectado, digitalizado e acelerado, é impresionante que as metodologias para ensino sejam as mesmas a decadas e fica facil perceber por que tanto alunos quanto professores se sintam desicentivados a aprender e a ensinar. 
+> Agindo no problema de falta de engajamento, uma das ferramentas que vem sendo utilizadas é a gamificação, ou o uso de jogos (ou mesmo caracteristicas de jogos) em contextos organizacionais e educativos. Utilizando de metodos e teorias refinadas ao longos de anos, gameficação tras para organizações e metodologias fatos e formatos usados a decadas para capturar e manter o interese de jogadores. Alem disso, atraves de jogos, conceitos complexos podem ser apresentados, reforçados e aprendidos de forma muito mais fluidas e solidas.
+> Entretanto a gamificação tem sua parcela de problemas. Muitos deles vem da sua implantação, ou, melhor dizendo, da dificuldade de aplicar seus metodos num sistema antigo e solificado. 
+Para entender mais sobre o tema, foi utilizado da Matriz de Alinhamento CSD.(https://github.com/ICEI-PUC-Minas-PMGCC-TI/tiaw-pmg-cc-m-20212-gamificacao-na-educacao/tree/master/Artefatos/Matriz%20de%20Alinhamento%20CSD) 
 
 ## Objetivos
 
