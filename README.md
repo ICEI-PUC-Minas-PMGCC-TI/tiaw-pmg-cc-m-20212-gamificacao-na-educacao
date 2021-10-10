@@ -8,13 +8,20 @@ Projeto da disciplina Trabalho Interdisciplinar - Aplicações Web - Tema: Gamif
 * Gabriel Parfan Guimarães
 * Carlos Augusto Lopes Xavier
 * Marcelo Mendes Rocha de Freitas
-* Nome completo do aluno 4
+* Paulo Campos Dias
+* Ivan Pereira Reis Nascimento
 
 ## Professores responsáveis
 
-* Nome completo do professor 1
-* Nome completo do professor 2
+* João Carlos Oliveira Caetano
+* Fatima De Lima Procopio Duarte
+* Rommel Vieira Carneiro
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+Repositorio contendo o projeto da disciplina Trabalho Interdisciplinar I - Aplicações Web, do curso de ciencia da computação da universidade PUC-Minas, unidade Praça da Liberdade, executado durante o segundo semestre de 2021. Esse projeto fundamenta-se no estudo e solução de um problema especifico, escolhido pelo grupo. Nesse caso estamos falando de Gameficação, com foco em gameficação na educação. Este repositorio foi criado com o intuito reunir, organizar, apresentar e publicar dito trabalho. 
+O repositorio em si é dividido em quatro pastas principais:
+-Documentação: pasta dedicada a toda parte teorica e documental do projeto, alem de refencias e resultados de testes.
+-Artefatos: pastas dedicadas ao artefatos desenvolvidos durante durante as fase de estudo do problema, planejamento e concpção do projeto;
+-Codigo: parte do repositorio dedicada ao resultado do porjeto: uma aplicação web dedicada a resolução do problema;
+-Divulgação: conteiner para as peças deselvolvidas explicitamente para apresentação do projeto, como pptxs e pdfs.
