@@ -19,9 +19,14 @@ Projeto da disciplina Trabalho Interdisciplinar - Aplicações Web - Tema: Gamif
 
 ## Instruções de utilização
 
-Repositorio contendo o projeto da disciplina Trabalho Interdisciplinar I - Aplicações Web, do curso de ciencia da computação da universidade PUC-Minas, unidade Praça da Liberdade, executado durante o segundo semestre de 2021. Esse projeto fundamenta-se no estudo e solução de um problema especifico, escolhido pelo grupo. Nesse caso estamos falando de Gameficação, com foco em gameficação na educação. Este repositorio foi criado com o intuito reunir, organizar, apresentar e publicar dito trabalho. 
-O repositorio em si é dividido em quatro pastas principais:
--Documentação: pasta dedicada a toda parte teorica e documental do projeto, alem de refencias e resultados de testes.
--Artefatos: pastas dedicadas ao artefatos desenvolvidos durante durante as fase de estudo do problema, planejamento e concpção do projeto;
--Codigo: parte do repositorio dedicada ao resultado do porjeto: uma aplicação web dedicada a resolução do problema;
--Divulgação: conteiner para as peças deselvolvidas explicitamente para apresentação do projeto, como pptxs e pdfs.
+Repositório contendo o projeto da disciplina Trabalho Interdisciplinar I - Aplicações Web, do curso de ciência da computação da universidade PUC-Minas, executado durante o segundo semestre de 2021.
+
+Esse projeto fundamenta-se no estudo e solução de um problema específico escolhido pelo grupo, nesse caso, a falta da Gamificação (ou Ludificação) na Educação.
+
+Este repositório foi criado com o intuito de reunir, organizar, apresentar e publicar a aplicação web desenvolvida e toda sua documentação. 
+
+O repositório é dividido em quatro pastas principais:
+- **`Documentação:`** Pasta dedicada a toda parte teórica e documental do projeto, além de referências e resultados de testes.
+- **`Artefatos:`** Pastas dedicadas aos artefatos desenvolvidos durante durante as fases de estudo do problema, planejamento e concepção do projeto.
+- **`Código:`** Parte do repositório dedicada ao resultado do projeto, uma aplicação web dedicada a resolução do problema.
+- **`Divulgação:`** Container para as peças desenvolvidas explicitamente para a apresentação do projeto, contendo arquivos pptx e pdf.
