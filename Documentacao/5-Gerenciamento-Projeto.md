@@ -1,50 +1,69 @@
-# Gerenciamento de Projeto
+# Gerenciamento do projeto
 
-> Descreva aqui a metodologia de trabalho do grupo para atacar o
-> problema.
+A metodologia ágil escolhida pelo grupo foi a Scrum por ser um 
+framework de gerenciamento de projetos capaz de agir desde a etapa da 
+organização até o desenvolvimento ágil de produtos complexos e 
+adaptativos.
+
+## Relação de ambientes de trabalho
+
+|Ambiente                        |Plataforma|Link de acesso|
+|--------------------------------|----------|--------------|
+|Repositório do Código Fonte     |GitHub    |https://github.com/ICEI-PUC-Minas-PMGCC-TI/tiaw-pmg-cc-m-20212-gamificacao-na-educacao/tree/master/Codigo|
+|Documentação do Projeto         |GitHub    |https://github.com/ICEI-PUC-Minas-PMGCC-TI/tiaw-pmg-cc-m-20212-gamificacao-na-educacao/tree/master/Documentacao|
+|Gerenciamento do Projeto        |GitHub    |https://github.com/ICEI-PUC-Minas-PMGCC-TI/tiaw-pmg-cc-m-20212-gamificacao-na-educacao/projects/1|
+|Projeto de Interface e Wireframe|Figma     |https://www.figma.com/file/TzEy9bNVufvSrhQx5FOjTQ/Gamifica%C3%A7%C3%A3o-na-Educa%C3%A7%C3%A3o?node-id=0%3A1|
+
+---
 
 ## Divisão de Papéis
 
-> Apresente a divisão de papéis entre os membros do grupo.
->
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu 
-> Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+**Scrum Master:**
+* Marcelo Mendes Rocha de Freitas
+
+**Equipe de desenvolvimento:**
+* Gabriel Parfan Guimarães `Desenvolvedor Front-End`
+* Carlos Augusto Lopes Xavier `Desenvolvedor Front-End`
+* Marcelo Mendes Rocha de Freitas `Desenvolvedor Front-End`
+* Paulo Campos Dias `Desenvolvedor Front-End`
+* Ivan Pereira Reis Nascimento `Desenvolvedor Front-End`
+
+---
 
 ## Processo
 
-> Coloque  informações sobre detalhes da implementação do Scrum seguido
-> pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar
-> o andamento do projeto, a execução das tarefas e o status de desenvolvimento
-> da solução.
-> 
-> **Links Úteis**:
-> - [Tutorial Trello](https://trello.com/b/8AygzjUA/tutorial-trello)
-> - [Gestão ágil de projetos com o Trello](https://www.youtube.com/watch?v=1o9BOMAKBRE)
-> - [Gerência de projetos - Trello com Scrum](https://www.youtube.com/watch?v=DHLA8X_ujwo)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+Para a realizar a distribuição de afazeres entre os membros do grupo, 
+um <a href="https://github.com/ICEI-PUC-Minas-PMGCC-TI/tiaw-pmg-cc-m-20212-gamificacao-na-educacao/projects/1">Projeto</a> 
+foi criado no GitHub com as seguintes divisões:
+
+- **`A fazer:`** Tarefas que ainda serão iniciadas.
+- **`Em progresso:`** Tarefas que estão sendo feitas.
+- **`Em revisão:`** Tarefas prontas que necessitam de revisão.
+- **`Feito:`** Tarefas finalizadas.
+
+---
 
 ## Ferramentas
 
 As ferramentas empregadas no projeto são:
 
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de diagramação
+**Editor de código:**
+- [Visual Studio Code](https://code.visualstudio.com/)
 
-O editor de código foi escolhido porque ele possui uma integração com o
-sistema de versão. As ferramentas de comunicação utilizadas possuem
-integração semelhante e por isso foram selecionadas. Por fim, para criar
-diagramas utilizamos essa ferramenta por melhor captar as
-necessidades da nossa solução.
+Este editor de código foi escolhido pois possui integração com o 
+sistema de versão utilizado, além de ferramentas adicionais que 
+facilitam o desenvolvimento do projeto.
 
-> Liste quais ferramentas foram empregadas no desenvolvimento do
-> projeto, justificando a escolha delas, sempre que possível.
-> 
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [![Slack](images/slack.jpg)](https://slack.com/)
-> - [![Trello](images/trello.png)](https://trello.com/)
-> 
-> - [![Microsof Project](images/project.png)](https://products.office.com/pt-br/project/project-and-portfolio-management-software)
-> - [![Redbooth](images/redbooth.png)](https://redbooth.com/)
+**Ferramentas de comunicação:**
+- [Microsoft Teams](https://www.microsoft.com/microsoft-teams/)
+- [Discord](https://www.discord.com/)
+- [WhatsApp](https://www.whatsapp.com/)
+
+Estas ferramentas foram utilizadas pois são de fácil acesso e estão 
+presentes no dia a dia dos membros do grupo.
+
+**Ferramentas de diagramação:**
+- [Figma](https://www.figma.com/)
+
+A plataforma Figma foi escolhida por ser de fácil acesso e possuir 
+a capacidade de criação de diagramas a nível profissional.
