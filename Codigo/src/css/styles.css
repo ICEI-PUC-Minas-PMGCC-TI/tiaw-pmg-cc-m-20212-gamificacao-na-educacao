@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.more-items-btn {
+    color: #F50057;
+    border: 2px solid #F50057;
+
+    width: 80px;
+    height: 80px;
+    font-size: 20px;
+
+    display: grid;
+    place-items: center;
+}
+
+.more-items-btn:hover {
+    color: #F50057;
+    cursor: pointer;
+}

@@ -1,0 +1,60 @@
+{
+    "exemplos": [
+        {
+            "id": "000",
+            "titulo": "Título do exemplo 0.",
+            "imagem": "https://picsum.photos/id/0/200",
+            "descricao": "Descrição sobre o projeto 0.",
+            "url": "https://google.com"
+        },
+        {
+            "id": "001",
+            "titulo": "Título do exemplo 1.",
+            "imagem": "https://picsum.photos/id/1/200",
+            "descricao": "Descrição sobre o projeto 1.",
+            "url": "#"
+        },
+        {
+            "id": "002",
+            "titulo": "Título do exemplo 2.",
+            "imagem": "https://picsum.photos/id/2/200",
+            "descricao": "Descrição sobre o projeto 2.",
+            "url": "#"
+        },
+        {
+            "id": "003",
+            "titulo": "Título do exemplo 3.",
+            "imagem": "https://picsum.photos/id/3/200",
+            "descricao": "Descrição sobre o projeto 3.",
+            "url": "#"
+        },
+        {
+            "id": "004",
+            "titulo": "Título do exemplo 4.",
+            "imagem": "https://picsum.photos/id/4/200",
+            "descricao": "Descrição sobre o projeto 4.",
+            "url": "#"
+        },
+        {
+            "id": "005",
+            "titulo": "Título do exemplo 5.",
+            "imagem": "https://picsum.photos/id/5/200",
+            "descricao": "Descrição sobre o projeto 5.",
+            "url": "#"
+        },
+        {
+            "id": "006",
+            "titulo": "Título do exemplo 6.",
+            "imagem": "https://picsum.photos/id/6/200",
+            "descricao": "Descrição sobre o projeto 6.",
+            "url": "#"
+        },
+        {
+            "id": "007",
+            "titulo": "Título do exemplo 7.",
+            "imagem": "https://picsum.photos/id/7/200",
+            "descricao": "Descrição sobre o projeto 7.",
+            "url": "#"
+        }
+    ]
+}
