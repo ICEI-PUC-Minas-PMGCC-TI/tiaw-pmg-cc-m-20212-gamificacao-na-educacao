@@ -4,17 +4,99 @@
     box-sizing: border-box;
 }
 
+:root {
+    --white: #F5F5F5;
+    --black: #2B2B2B;
+    --red: #F50057;
+    --dark-red: #D41357;
+    --gray: #C5C5C5;
+}
+
 a {
     text-decoration: none;
 }
 
+/* CABEÇALHO */
+header {
+    position: sticky;
+    top: 0;
+}
+
+.navbar {
+    background: var(--white);
+    
+    height: 80px;
+    padding: 0 100px;
+}
+
+.navbar h1 > a {
+    color: var(--black);
+
+    padding: 10px;
+}
+
+.navbar-items ul {
+    margin: 0;
+    display: flex;
+}
+
+.navbar-items li {
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+.navbar-items a {
+    color: var(--black);
+    font-weight: bold;
+    
+    padding: 10px;
+    transition: 0.2s;
+}
+
+.navbar-items a:hover {
+    background: var(--gray);
+}
+/* CABEÇALHO FIM */
+
+/* HERO */
+.hero {
+    background: var(--red);
+    color: var(--white);
+    
+    width: 100%;
+    height: 300px;
+    
+    display: grid;
+    place-items: center;
+}
+/* HERO FIM */
+
+/* BOTAO */
+/* BOTAO PADRAO */
+.more-examples-btn {
+    background: var(--red);
+    color: var(--white);
+    font-weight: bold;
+    text-align: center;
+
+    padding: 15px;
+}
+
+.more-examples-btn:hover {
+    background: var(--dark-red);
+    color: var(--white);
+}
+/* BOTAO PADRAO FIM*/
+
+/* BOTAO QUADRADO */
 .more-items-btn {
-    color: #F50057;
-    border: 2px solid #F50057;
+    color: var(--red);
+    border: 2px solid var(--red);
+    font-size: 20px;
 
     width: 80px;
     height: 80px;
-    font-size: 20px;
+    margin: 30px 0 50px 0;
 
     display: grid;
     place-items: center;
@@ -23,4 +105,33 @@ a {
 .more-items-btn:hover {
     color: #F50057;
     cursor: pointer;
+}
+/* BOTAO QUADRADO FIM */
+/* BOTAO FIM */
+
+.example-card {
+    background-color: var(--gray);
+
+    height: 700px;
+    padding: 20px;
+
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.example-img {
+    background-size: cover;
+    background-position: 0%;
+}
+
+.example-info {
+    padding-top: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.example-info h2 {
+    text-align: center;
 }
