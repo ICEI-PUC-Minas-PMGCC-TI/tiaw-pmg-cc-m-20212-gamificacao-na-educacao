@@ -1,5 +1,5 @@
 $(document).ready(() => {
-    fetchData();
+    main();
 });
 
 async function fetchData() {
@@ -8,6 +8,10 @@ async function fetchData() {
         .then((data) => {
             sessionStorage.setItem("allExamples", JSON.stringify(data));
         });
+}
+
+async function main() {
+    await fetchData();
     addCardExamples(getExamples());
 }
 
@@ -30,24 +34,30 @@ function addCardExamples(examples) {
             break;
         }
         let example = examples[i];
-        $(".container > .row").append($("<div id='aaa' class='col-6'></div>").append(
-            $("<img />", {
-                src: example["imagem"],
-                alt: example["titulo"]
-            }),
-            $(`<h2>${example["titulo"]}</h2>`),
-            $(`<p>${example["descricao"]}</p>`),
-            $("<a></a>", {
-                id: example["id"],
-                text: "Mais sobre",
-                href: "./exemplo.html"
-            })
-        ));
+        $(".container > .row").append($(`
+            <div class="col-12 col-sm-6 p-3">
+                <div class="example-card">
+                    <div id="${example['id']}" class="example-img" onclick="location.href='./exemplo.html'" style="background-image: url('${example["imagem"]}'); cursor: pointer;">
+                    </div>
+                    <div class="example-info">
+                        <h2>${example['titulo']}</h2>
+                        <p>${
+                            example['descricao'].length > 400 ? example['descricao'].substring(0, 397) + '...' : example['descricao']
+                        }</p>
+                        <a id="${example['id']}" class="more-examples-btn" href="./exemplo.html">Mais sobre</a>
+                    </div>
+                </div>
+            </div>
+        `));
     }
     // Se nao houver mais cards a serem carregados o botao desativa
     if (cardAmount + 4 >= exampleAmount) {
         $("#load-examples").hide();
     }
+
+    $(".example-img").click(function() {
+        sessionStorage.setItem("example", JSON.stringify(examples[parseInt(this.id)]));
+    });
 
     $(".container a").click(function() {
         sessionStorage.setItem("example", JSON.stringify(examples[parseInt(this.id)]));
