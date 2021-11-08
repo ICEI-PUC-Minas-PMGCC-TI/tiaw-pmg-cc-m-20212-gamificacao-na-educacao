@@ -8,16 +8,16 @@ $(document).ready(() => {
 });
 
 function addExample(example) {
-    $(".container").append(
-        $("<img />", {
-            src: example["imagem"],
-            alt: example["titulo"]
-        }),
-        $(`<h2>${example["titulo"]}</h2>`),
-        $(`<p>${example["descricao"]}</p>`),
-        $("<a></a>", {
-            text: "Visitar página",
-            href: example["url"]
-        })
-    )
+    $(".hero").html(`<h1>${example['titulo']}</h1>`)
+    $(".container").append($(`
+        <div class="example-card">
+            <div class="example-img" onclick="location.href='${example['url']}'" style="background-image: url('${example["imagem"]}'); cursor: pointer;">
+            </div>
+            <div class="example-info">
+                <h2>${example['titulo']}</h2>
+                <p>${example['descricao']}</p>
+                <a id="${example['id']}" class="more-examples-btn" href="${example['url']}">Ir para a página</a>
+            </div>
+        </div>
+    `));
 }
