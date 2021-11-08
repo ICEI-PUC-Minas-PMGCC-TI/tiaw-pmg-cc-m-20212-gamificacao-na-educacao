@@ -35,7 +35,7 @@ function addCardExamples(examples) {
         }
         let example = examples[i];
         $(".container > .row").append($(`
-            <div class="col-12 col-sm-6 p-3">
+            <div class="col-12 col-md-6 p-3">
                 <div class="example-card">
                     <div id="${example['id']}" class="example-img" onclick="location.href='./exemplo.html'" style="background-image: url('${example["imagem"]}'); cursor: pointer;">
                     </div>
