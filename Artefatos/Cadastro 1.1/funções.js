@@ -7,10 +7,9 @@ function leDados () {
     }
     else{
         objDados = { usuarios: [ 
-            {login: "exemplo 1", email: "exemplo 1", senha: "exemplo 1", nome: "exemplo 1"}, 
-            {login: "exemplo 2", email: "exemplo 2", senha: "exemplo 2", nome: "exemplo 2"}, 
-            {login: "exemplo 3", email: "exemplo 3", senha: "exemplo 3", nome: "exemplo 3"},
-            {} ]
+            { login: "Ru@m d'S1lva", email: "Ruam.silva@gmail.com", senha: "123456789", nome: "Ruam da Silva"}, 
+            { login: "Mariazinha", email: "tia.maria@gmail.com", senha: "20111983", nome: "Maria do Carmo"}, 
+            { login: "AnpesaEletrônicos", email: "anpesa.oficial@gmail.com", senha: "CjuD^E4X&V26", nome: "Antônio Pereira dos Santos"}, ]
         }
     }
     return objDados;
@@ -30,13 +29,13 @@ function incluirUsuario () {
     let strSenha = document.getElementById('campoSenha').value;
     let strNome = document.getElementById('campoNome').value;
     let novoUsuario = {
-        login: strLogin,
-        email: strEmail,
-        senha: strSenha,
-        nome: strNome
+        "login": strLogin,
+        "email": strEmail,
+        "senha": strSenha,
+        "nome": strNome
     };
     
-    objDados.contato.push(novoUsuario);
+    objDados.usuario.push(novoUsuario);
 
     //Salvar os dados no localStorage 
     salvaDados (objDados);
@@ -50,7 +49,7 @@ function imprimeDados () {
     let strHtml = '';
     let objDados = leDados ();
     for(i=0; i<objDados.usuarios.length; i++){
-        strHtml = strHtml + `<p>${objDados.usuarios[i].login} - ${objDados.usuarios[i].email} - ${objDados.usuarios[i].nome}<p>`
+        strHtml = strHtml + `<p>Nome do usuario: ${objDados.usuarios[i].nome} | Email de contato: ${objDados.usuarios[i].email}<p>`
     }
     tela.innerHTML = strHtml;
 }
