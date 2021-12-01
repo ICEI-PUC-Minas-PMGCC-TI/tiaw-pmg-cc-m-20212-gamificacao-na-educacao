@@ -85,6 +85,7 @@ header {
 .more-examples-btn:hover {
     background: var(--dark-red);
     color: var(--white);
+    cursor: pointer;
 }
 /* BOTAO PADRAO FIM*/
 
@@ -109,12 +110,13 @@ header {
 /* BOTAO QUADRADO FIM */
 /* BOTAO FIM */
 
+/* EXEMPLOS */
 .example-card {
     background-color: var(--gray);
 
     height: 700px;
     padding: 20px;
-
+    
     display: grid;
     grid-template-rows: 1fr 1fr;
 }
@@ -126,7 +128,7 @@ header {
 
 .example-info {
     padding-top: 20px;
-
+    
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -134,4 +136,26 @@ header {
 
 .example-info h2 {
     text-align: center;
+}
+/* EXEMPLOS FIM */
+
+.news-card {
+    background-color: var(--gray);
+    margin: 20px 0;
+    padding: 20px;
+}
+
+.news-card h2 a {
+    color: var(--black);
+}
+
+.news-card h2 a:hover {
+    color: var(--black);
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 767px) {
+    .news-card {
+        gap: 50px;
+    }
 }
