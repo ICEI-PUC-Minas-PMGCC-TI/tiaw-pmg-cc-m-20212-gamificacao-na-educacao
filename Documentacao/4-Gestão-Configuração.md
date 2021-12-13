@@ -17,8 +17,7 @@ de um pull request para a branch principal.
 Quanto à gerência de issues, o projeto utiliza nomes explicativos do
 que deve ser feito em cada um, em suas etiquetas.
 
-Leia mais sobre o gerenciamento do projeto em:
-[Gerenciamento do projeto](https://github.com/ICEI-PUC-Minas-PMGCC-TI/tiaw-pmg-cc-m-20212-gamificacao-na-educacao/blob/master/Documentacao/5-Gerenciamento-Projeto.md)
+Leia mais sobre o [gerenciamento do projeto](https://github.com/ICEI-PUC-Minas-PMGCC-TI/tiaw-pmg-cc-m-20212-gamificacao-na-educacao/blob/master/Documentacao/5-Gerenciamento-Projeto.md).
 
 ## Hospedagem
 
@@ -26,4 +25,4 @@ Apesar do site ter sido desenvolvido com ferramentas offline, a
 hospedagem e alguns testes online foram realizados utilizando a
 ferramenta gratuita Replit.
 
-[Replit](https://replit.com/)
+> - [Replit](https://replit.com/)
