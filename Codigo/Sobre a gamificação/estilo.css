@@ -1,0 +1,24 @@
+h1{
+    background-color: #f50057;
+    color: whitesmoke;
+    size: 300%;
+}
+
+h3{
+    margin-left: 24px;
+    margin-right: 24px;
+    padding: 16px;
+    size: 100%;
+    background-color: #f50057;
+    color: whitesmoke;
+}
+
+div{
+    margin-left: 24px;
+    margin-right: 24px;
+    padding: 16px;
+    size: 200%;
+    background-color: #f50057;
+    color: whitesmoke;
+}
+ 
