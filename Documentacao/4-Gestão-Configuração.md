@@ -1,9 +1,7 @@
 # Gestão de Configuração
 
-> Nesta parte do documento, você deve apresentar como foi realizada a
-> gestão de configuração do projeto. Isto é, como a ferramenta de
-> controle de versão foi configurada, bem como a hospedagem da
-> plataforma.
+Saiba aqui quais foram as ferramentas utilizadas para o controle de
+versão e hospedagem do projeto.
 
 ## Controle de Versão
 
@@ -11,37 +9,21 @@ A ferramenta de controle de versão adotada no projeto foi o
 [Git](https://git-scm.com/), sendo que o [Github](https://github.com)
 foi utilizado para hospedagem do repositório `upstream`.
 
-O projeto segue a seguinte convenção para o nome de branchs:
+O projeto utiliza a branch `master` para manter a versão estável já
+testada do software, as outras branches possuem os artefatos
+individuais de cada colaborador, que uma vez testadas, vão por meio
+de um pull request para a branch principal.
 
-- `master`: versão estável já testada do software
-- `unstable`: versão já testada do software, porém instável
-- `testing`: versão em testes do software
-- `dev`: versão de desenvolvimento do software
+Quanto à gerência de issues, o projeto utiliza nomes explicativos do
+que deve ser feito em cada um, em suas etiquetas.
 
-Quanto à gerência de issues, o projeto adota a seguinte convenção para
-etiquetas:
-
-- `bugfix`: uma funcionalidade encontra-se com problemas
-- `enhancement`: uma funcionalidade precisa ser melhorada
-- `feature`: uma nova funcionalidade precisa ser introduzida
-
-> Discuta como a configuração do projeto foi feita na ferramenta de
-> versionamento escolhida. Exponha como a gerência de tags, merges,
-> commits e branchs é realizada. Discuta como a gerência de issues foi
-> realizada.
->
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
+Leia mais sobre o gerenciamento do projeto em:
+[Gerenciamento do projeto](https://github.com/ICEI-PUC-Minas-PMGCC-TI/tiaw-pmg-cc-m-20212-gamificacao-na-educacao/blob/master/Documentacao/5-Gerenciamento-Projeto.md)
 
 ## Hospedagem
 
-> Explique como a hospedagem e o lançamento da plataforma foi feita.
->
-> **Links Úteis**:
->
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Crie seu Site com o
->   HostGator](https://www.hostgator.com.br/como-publicar-seu-site)
-> - [GoDady](https://br.godaddy.com/how-to)
-> - [GitHub Pages](https://pages.github.com/)
+Apesar do site ter sido desenvolvido com ferramentas offline, a
+hospedagem e alguns testes online foram realizados utilizando a
+ferramenta gratuita Replit.
+
+[Replit](https://replit.com/)
