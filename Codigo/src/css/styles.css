@@ -139,6 +139,33 @@ header {
 }
 /* EXEMPLOS FIM */
 
+/* SOBRE GAMIFICAÇÃO */
+.about-h1 {
+    background-color: #f50057;
+    color: whitesmoke;
+    size: 300%;
+}
+
+.about-h3 {
+    margin-left: 24px;
+    margin-right: 24px;
+    padding: 16px;
+    size: 100%;
+    background-color: #f50057;
+    color: whitesmoke;
+}
+
+.about-title,
+.about-subtitle {
+    margin-left: 24px;
+    margin-right: 24px;
+    padding: 16px;
+    size: 200%;
+    background-color: #f50057;
+    color: whitesmoke;
+}
+/* SOBRE GAMIFICAÇÃO FIM */
+
 .news-card {
     background-color: var(--gray);
     margin: 20px 0;
