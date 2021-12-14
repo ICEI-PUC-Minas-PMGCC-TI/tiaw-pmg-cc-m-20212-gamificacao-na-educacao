@@ -166,6 +166,13 @@ header {
 }
 /* SOBRE GAMIFICAÇÃO FIM */
 
+/* CADASTRO */
+#cadastroTela {
+    background-color: #00ffff;
+    max-width: 50%;
+}
+/* CADASTRO FIM */
+
 .news-card {
     background-color: var(--gray);
     margin: 20px 0;
