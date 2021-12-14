@@ -1,14 +1,9 @@
 # Apresentação
 
-<span style="color:red">Pré-requisitos: Todos os demais artefatos</span>
-
-
-> Conjunto de slides em um arquivo PowerPoint ou PDF
-> com a apresentação do projeto contemplando todos os
-> itens trabalhados nos demais artefatos.
+Encontre a apresentação [clicando aqui](https://github.com/ICEI-PUC-Minas-PMGCC-TI/tiaw-pmg-cc-m-20212-gamificacao-na-educacao/blob/master/Divulgacao/Apresentacao/Gamificacao_na_educacao.pdf).
 
 ## Título do Projeto
-> Nome e marca do projeto
+Gameducation
 
 ## Identidade Visual (Marca, Design)
 > O grupo deve ter o cuidado em utilizar figuras, imagens, e
