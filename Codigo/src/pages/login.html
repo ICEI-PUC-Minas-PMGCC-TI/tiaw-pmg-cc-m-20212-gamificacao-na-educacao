@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <script>
+            function verificar()
+            {
+                var usr=document.getElementById('iusr');
+                var senha=document.getElementById('isenha');
+
+                // verificar se o usuário existe no local localStorage
+
+                usr_ls=localStorage.getItem(usr.value);
+
+                if(usr_ls==null)
+                {
+                    alert('usuário não existe');
+                    return false;
+                }
+                else
+                {
+                    //alert('usuário existe');
+                    //alert(senha.value);
+
+                    if(senha.value==usr_ls)
+                    {
+                        // registrar o usuário logado no momento para ser usado em entrada.html
+                        localStorage.setItem('usr_logado', usr.value);
+                    }
+                    else
+                    {
+                        alert('senha incorreta'); return false;
+                    }
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <form action='entrada.html'>
+            <input id='iusr' type='text' /><br/>
+            <input id='isenha' type='password' /><br/>
+            <input type='submit' value='Autenticar' OnClick='return verificar();'/>
+        </form>
+    </body>
+</html>

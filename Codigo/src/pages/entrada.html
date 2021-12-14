@@ -1,0 +1,20 @@
+<html>
+    <head>
+
+    </head>
+    <body onLoad='verificar();'>
+        <h1>
+            Bem vindo <span id='span_usuario'></span>
+        </h1>
+        <script>
+            var usr_logado="";
+            function verificar()
+            {
+                usr_logado=localStorage.getItem('usr_logado');
+                //alert(usr_logado);
+                var dspan=document.getElementById('span_usuario');
+                dspan.textContent=usr_logado;
+            }
+        </script>
+    </body>
+</html>
