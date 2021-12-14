@@ -1,8 +1,22 @@
 # Projeto da Solução
 
-<span style="color:red">Pré-requisitos: <a href="4-Gestão-Configuração.md"> Ambiente e Ferramentas de Trabalho</a></span>
-
 ## Tecnologias Utilizadas
+
+Linguagens de marcação, de estilização e programação:
+
+- HTML
+- CSS
+- JavaScript
+
+Bibliotecas e frameworks:
+
+- jQuery (em estágios iniciais)
+- Bootstrap
+
+IDEs e editores de código:
+
+- Visual Studio Code
+- Replit
 
 > Descreva aqui qual(is) tecnologias você vai usar para resolver o seu
 > problema, ou seja, implementar a sua solução. Liste todas as
