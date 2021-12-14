@@ -43,12 +43,12 @@ artefato para atingir seu objetivo esperado pelos usuários.
 
 ---
 
+## Teste 3: Cadastro de usuário
+
 > Descrição do artefato:
 >
 > Programa que mostra os usuários já cadastrados e permite adicionar
 > mais no localStorage.
-
-## Teste 3: Cadastro de usuário
 
 |#|Cenário             |Pré-Condições |Ações                                                                                                                            |Resultados Esperados|
 |-|--------------------|--------------|---------------------------------------------------------------------------------------------------------------------------------|--------------------|
